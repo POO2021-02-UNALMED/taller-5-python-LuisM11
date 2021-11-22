@@ -1,9 +1,9 @@
-#from gestion.zona import Zona
-#from zooAnimales.anfibio import Anfibio
-#from zooAnimales.mamifero import Mamifero
-#from zooAnimales.ave import Ave
-#from zooAnimales.reptil import Reptil
-#from zooAnimales.pez import Pez
+from gestion.zona import Zona
+from zooAnimales.anfibio import Anfibio
+from zooAnimales.mamifero import Mamifero
+from zooAnimales.ave import Ave
+from zooAnimales.reptil import Reptil
+from zooAnimales.pez import Pez
 class Animal:
     totalAnimales=0
     def __init__(self,n=None,e=0,h=None,g=None,z=None):
