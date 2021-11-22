@@ -14,11 +14,11 @@ class Reptil(Animal):
         return len(cls.listado)
     @classmethod
     def crearIguana(cls,n,e,g):
-        cls.iguanas=+1
+        cls.iguanas+=1
         return cls(n,e,"humedal",g,"verde",3)
     @classmethod
     def crearSerpiente(cls,n,e,g):
-        cls.serpientes=+1
+        cls.serpientes+=1
         return cls(n,e,"jungla",g,"blanco",1)
     def getColorEscamas(self):
         return self._colorEscamas

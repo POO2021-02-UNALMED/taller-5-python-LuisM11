@@ -14,11 +14,11 @@ class Pez(Animal):
         return len(cls.listado)
     @classmethod
     def crearSalmon(cls,n,e,g):
-        cls.salmones=+1
+        cls.salmones+=1
         return cls(n,e,"oceano",g,"rojo",6)
     @classmethod
     def crearBacalao(cls,n,e,g):
-        cls.bacalaos=+1
+        cls.bacalaos+=1
         return cls(n,e,"oceano",g,"gris",6)
     def getColorEscamas(self):
         return self._colorEscamas

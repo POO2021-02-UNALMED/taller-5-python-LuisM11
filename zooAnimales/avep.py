@@ -15,11 +15,11 @@ class Ave(Animal):
         return "volar"
     @classmethod
     def crearHalcon(cls,n,e,g):
-        cls.halcones=+1
+        cls.halcones+=1
         return cls(n,e,"montanas",g,"cafe glorioso")
     @classmethod
     def crearAguila(cls,n,e,g):
-        cls.aguilas=+1
+        cls.aguilas+=1
         return Ave(n,e,"montanas",g,"blanco y amarillo")
     def getColorPlumas(self):
         return self._colorPlumas
