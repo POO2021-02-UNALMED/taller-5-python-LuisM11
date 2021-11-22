@@ -5,7 +5,7 @@ from zooAnimales.avep import Ave
 from zooAnimales.mamiferop import Mamifero
 from zooAnimales.pezp import Pez
 from zooAnimales.reptilp import Reptil
-from zooAnimales.animalp import Animal #s
+from zooAnimales.animalp import Animal
 
 def testTotalTipo():
     Anfibio.crearRana("test", 11, "M")

@@ -1,9 +1,4 @@
-from gestion.zonap import Zona
-from zooAnimales.anfibiop import Anfibio
-from zooAnimales.mamiferop import Mamifero
-from zooAnimales.avep import Ave
-from zooAnimales.reptilp import Reptil
-from zooAnimales.pezp import Pez
+
 class Animal:
     totalAnimales=0
     def __init__(self,n=None,e=0,h=None,g=None,z=None):
@@ -17,6 +12,12 @@ class Animal:
         return "desplazarse"
     @classmethod
     def totalPorTipo(cls):
+        from gestion.zonap import Zona
+        from zooAnimales.anfibiop import Anfibio
+        from zooAnimales.mamiferop import Mamifero
+        from zooAnimales.avep import Ave
+        from zooAnimales.reptilp import Reptil
+        from zooAnimales.pezp import Pez
         return "Mamiferos: ",Mamifero.cantidadMamiferos(), "\n" , "Aves: " , Ave.cantidadAves()+ "\n" , "Reptiles: " , Reptil.cantidadReptiles(), "\n" , "Peces: " , Pez.cantidadPeces() ,"\n" , "Anfibios: ", Anfibio.cantidadAnfibios() 
     def __str__(self):
         return "Mi nombre es ",self.getNombre() , ", tengo una edad de ", self.getEdad(), ", habito en "+self.getHabitat(), " y mi genero es ",self.getGenero()
