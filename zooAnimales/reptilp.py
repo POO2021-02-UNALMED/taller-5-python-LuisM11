@@ -24,6 +24,6 @@ class Reptil(Animal):
         return self._colorEscamas
     def getLargoCola(self):
         return self._largoCola
-    def __str__(self):
+    def movimiento(self):
         return "reptar"
     

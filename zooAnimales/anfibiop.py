@@ -12,7 +12,7 @@ class Anfibio(Animal):
     @classmethod
     def cantidadAnfibios(cls):
         return len(cls.listado)
-    def __str__(self):
+    def movimiento(self):
         return "saltar"
     @classmethod
     def crearRana(cls,n,e,g):

@@ -18,8 +18,9 @@ class Animal:
         from zooAnimales.avep import Ave
         from zooAnimales.reptilp import Reptil
         from zooAnimales.pezp import Pez
-        return "Mamiferos: "+str(Mamifero.cantidadMamiferos())+ "\n" + "Aves: " +str(Ave.cantidadAves())+ "\n" + "Reptiles: " + str(Reptil.cantidadReptiles())+ "\n" + "Peces: " + str(Pez.cantidadPeces()) +"\n" + "Anfibios: "+str(Anfibio.cantidadAnfibios())
-    def __str__(self):
+        return "Mamiferos : "+str(Mamifero.cantidadMamiferos())+ "\n" + "Aves : " +str(Ave.cantidadAves())+ "\n" + "Reptiles : " + str(Reptil.cantidadReptiles())+ "\n" + "Peces : " + str(Pez.cantidadPeces()) +"\n" + "Anfibios : "+str(Anfibio.cantidadAnfibios())
+    
+    def toString(self):
         return "Mi nombre es "+str(self.getNombre()) + ", tengo una edad de "+ str(self.getEdad())+ ", habito en "+ str(self.getHabitat())+ " y mi genero es "+str(self.getGenero())
     def getNombre(self):
         return self.nombre
