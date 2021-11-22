@@ -1,11 +1,11 @@
-from gestion.zona import Zona
-from gestion.zoologico import Zoologico 
-from zooAnimales.anfibio import Anfibio
-from zooAnimales.ave import Ave
-from zooAnimales.mamifero import Mamifero
-from zooAnimales.pez import Pez
-from zooAnimales.reptil import Reptil
-from zooAnimales.animal import Animal
+from gestion.zonap import Zona
+from gestion.zoologicop import Zoologico 
+from zooAnimales.anfibiop import Anfibio
+from zooAnimales.avep import Ave
+from zooAnimales.mamiferop import Mamifero
+from zooAnimales.pezp import Pez
+from zooAnimales.reptilp import Reptil
+from zooAnimales.animalp import Animal
 
 zoo = Zoologico("Zoologico Central", "Chicago")
 z1 = Zona("zona1")
