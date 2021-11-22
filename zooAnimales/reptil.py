@@ -1,4 +1,4 @@
-from zooAnimales.animal import Animal
+#from zooAnimales.animal import Animal
 
 class Reptil(Animal):
     listado=[]
@@ -26,3 +26,4 @@ class Reptil(Animal):
         return self._largoCola
     def __str__(self):
         return "reptar"
+    
